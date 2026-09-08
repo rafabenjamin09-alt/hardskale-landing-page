@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hardskale — Qualified Homeowners Ready to Buy</title>
+<style>
+:root{--bg:#080808;--panel:#111;--line:#292929;--text:#f5f5ef;--muted:#9d9d96;--lime:#d9ff4f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}.wrap{max-width:1120px;margin:auto;padding:0 24px}
+header{height:70px;display:flex;align-items:center;justify-content:center}.logo{font-size:23px;font-weight:950;letter-spacing:-1.5px}.logo span{color:var(--lime)}
+.hero{text-align:center;padding:70px 0 58px;max-width:930px;margin:auto}.eyebrow{display:inline-block;border:1px solid #383838;border-radius:999px;padding:8px 13px;font-size:10px;font-weight:850;letter-spacing:.13em;text-transform:uppercase;color:#c9c9c3}
+h1{font-size:clamp(50px,7.5vw,86px);line-height:.91;letter-spacing:-.067em;margin:22px 0}.lime{color:var(--lime)}.hero p{max-width:735px;margin:auto;color:var(--muted);font-size:19px;line-height:1.55}.cta{display:inline-block;background:var(--lime);color:#080808;text-decoration:none;padding:18px 28px;border-radius:999px;font-size:14px;font-weight:950;margin-top:28px}.micro{font-size:11px;color:#666;margin-top:11px}.offer-strip{margin:0 auto 24px;display:flex;flex-wrap:wrap;justify-content:center;gap:9px}.offer-pill{border:1px solid #343434;background:#101010;border-radius:999px;padding:11px 15px;color:#e9e9e2;font-size:11px;font-weight:850;letter-spacing:.04em}.offer-pill b{color:var(--lime)}
+.proofbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;display:grid;grid-template-columns:repeat(4,1fr);text-align:center}.proofbar strong{display:block;font-size:24px;letter-spacing:-.04em;color:var(--lime)}.proofbar span{font-size:10px;color:#777;text-transform:uppercase;letter-spacing:.1em}
+section{padding:82px 0}.hero + section{padding-top:10px;padding-bottom:55px}.hero + section .videos{margin-top:28px}.hero + #book{padding-top:18px;padding-bottom:40px}.hero + #book .book{align-items:center}.hero + #book .points{margin-top:18px}.kicker{font-size:11px;color:var(--lime);font-weight:900;letter-spacing:.15em;text-transform:uppercase}.title{font-size:clamp(38px,5vw,60px);line-height:.97;letter-spacing:-.055em;margin:11px 0 15px}.sub{color:var(--muted);font-size:17px;line-height:1.55;max-width:700px}.center{text-align:center}.center .sub{margin-left:auto;margin-right:auto}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:38px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:27px}.card h3{font-size:21px;margin:13px 0 8px}.card p{color:#85857f;font-size:13px;line-height:1.55;margin:0}
+.system{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:38px}.step{border-top:2px solid #303030;padding:22px 4px}.step b{color:var(--lime);font-size:10px}.step h3{font-size:19px;margin:12px 0 6px}.step p{color:#85857f;font-size:13px;line-height:1.5}
+.case{display:grid;grid-template-columns:1.15fr .85fr;gap:15px;margin-top:38px}.caseimg{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#111}.caseimg img{width:100%;display:block}.casecopy{padding:30px;background:#111;border:1px solid var(--line);border-radius:20px}.big{font-size:51px;font-weight:950;letter-spacing:-.055em;margin:30px 0 4px}.casecopy p{color:#888;font-size:13px;line-height:1.55}
+.green{background:var(--lime);color:#080808;border-radius:23px;padding:54px;text-align:center}.green .kicker{color:#46501f}.green .sub{color:#41491f;margin:auto}.green .cta{background:#080808;color:white}
+.videos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}.vid{background:#111;border:1px solid var(--line);border-radius:18px;overflow:hidden}.vid video{width:100%;height:380px;object-fit:cover;display:block;background:#151515}.vidbody{padding:20px}.vidbody h3{font-size:17px;margin:7px 0}.vidbody p{color:#81817b;font-size:12px;margin:0}
+.book{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:start}.points{margin-top:25px}.point{padding:15px 0;border-bottom:1px solid var(--line);font-size:14px;color:#bdbdb6}.point b{color:var(--lime);margin-right:9px}
+.cal{background:#fff;color:#111;border-radius:20px;padding:28px;min-height:450px}.ghl-calendar{width:100%;overflow:hidden;border-radius:12px}.ghl-calendar iframe{display:block;width:100%;min-height:720px}.cal h3{margin:0;font-size:25px}.cal p{color:#666;font-size:13px}.embed{border:1px solid #ddd;border-radius:12px;padding:20px;margin-top:17px}.month{display:flex;justify-content:space-between;font-weight:800;margin-bottom:17px}.days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.day{text-align:center;padding:9px 2px;border-radius:7px;font-size:11px;color:#777}.avail{background:#efffb2;color:#111;font-weight:800}.cal .cta{width:100%;text-align:center;background:#111;color:#fff}
+.faq{max-width:760px;margin:auto}.q{border-bottom:1px solid var(--line);padding:20px 0;font-weight:800}.q span{float:right;color:var(--lime)}
+footer{border-top:1px solid var(--line);padding:25px;text-align:center;color:#666;font-size:10px}
+@media(max-width:800px){.proofbar,.cards,.system,.case,.videos,.book{grid-template-columns:1fr}.proofbar{gap:16px}.casecopy{padding:24px}.green{padding:38px 24px}.vid video{height:430px}}
+
+.explainer{padding-top:30px}.explainer-inline{background:#111;border:1px solid var(--line);border-radius:18px;overflow:hidden}.explainer-inline h3{font-size:20px;margin:7px 20px}.explainer-inline p{color:#81817b;font-size:12px;margin:0 20px 16px}.explainer-inline .kicker{padding:20px 20px 0}.explainer-inline video{width:100%;height:380px;object-fit:cover;display:block;background:#000}.video-wrap{max-width:920px;margin:32px auto 0;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#000;box-shadow:0 20px 60px rgba(0,0,0,.18)}.video-wrap video{display:block;width:100%;max-height:620px;object-fit:contain;background:#000}
+.video-wrap{position:relative;overflow:hidden;border-radius:18px;background:#000}.video-wrap video{display:block;width:100%;height:auto}.play-overlay{position:absolute;inset:0;margin:auto;width:76px;height:76px;border:0;border-radius:50%;background:rgba(217,255,79,.96);color:#080808;display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 35px rgba(0,0,0,.45);transition:transform .18s,opacity .18s}.play-overlay span{font-size:25px;margin-left:4px}.play-overlay:hover{transform:scale(1.08)}.video-wrap.playing .play-overlay{opacity:0;pointer-events:none}</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo">HARD<span>SKALE</span></div></header>
+
+<section class="hero">
+<div class="eyebrow">For established outdoor living companies</div>
+<h1>Get qualified homeowners <span class="lime">ready to buy.</span></h1>
+<p>We build a predictable acquisition system that puts your business in front of the right homeowners — then follows up until they're ready to talk.</p>
+<a class="cta" href="#book">CHOOSE A TIME →</a><div class="offer-strip"><div class="offer-pill"><b>PAY ONLY WHEN YOU QUOTE</b></div><div class="offer-pill">NO MONTHLY RETAINERS</div><div class="offer-pill">NO CONTRACTS</div><div class="offer-pill">NO HIDDEN COSTS</div></div>
+<div class="micro">1-hour strategy call · No obligation</div>
+</section>
+
+<section>
+<div class="center"><div class="kicker">Client proof — before you book</div><h2 class="title">See why homeowners <span class="lime">turn into opportunities.</span></h2><p class="sub">Real video proof and objection-handling content, placed near the top so you can see the people and process behind Hardskale before you book.</p></div>
+<div class="videos">
+<div class="vid"><div class="video-wrap"><video playsinline preload="metadata"><source src="testimonial-1.mp4" type="video/mp4"></video><button class="play-overlay" aria-label="Play testimonial video"><span>▶</span></button></div><div class="vidbody"><div class="kicker">CLIENT TESTIMONIAL</div><h3>Hear it from a client.</h3><p>A real customer experience with Hardskale.</p></div></div>
+<div class="explainer-inline">
+<div class="kicker">HOW THE SYSTEM WORKS</div><h3>See exactly what we do.</h3><p>Watch Ben explain how the Hardskale system works before you book.</p>
+<div class="video-wrap"><video playsinline preload="metadata" src="system-explainer.mp4"></video><button class="play-overlay" aria-label="Play system explainer video"><span>▶</span></button></div>
+</div>
+<div class="vid"><div class="video-wrap"><video playsinline preload="metadata"><source src="testimonial-2.mp4" type="video/mp4"></video><button class="play-overlay" aria-label="Play testimonial video"><span>▶</span></button></div><div class="vidbody"><div class="kicker">CLIENT TESTIMONIAL</div><h3>See what the experience is like.</h3><p>Another real customer story, before you book.</p></div></div>
+</div>
+</section>
+
+
+
+<section id="book">
+<div class="book">
+<div>
+<div class="kicker">Book your strategy call</div>
+<h2 class="title">Let's see if Hardskale can <span class="lime">grow your pipeline.</span></h2>
+<p class="sub">We'll look at your current lead generation, project values and growth target. If the economics make sense, we'll show you what we'd build.</p>
+<div class="points">
+<div class="point"><b>✓</b> 1-hour strategy call</div><div class="point"><b>✓</b> Pay only when you quote — no monthly retainers, no contracts, no hidden costs</div>
+<div class="point"><b>✓</b> No obligation</div>
+<div class="point"><b>✓</b> Clear answer on fit</div>
+</div>
+</div>
+<div class="cal">
+<h3>Book your 1-hour strategy call.</h3><p>Choose a time below. No obligation.</p>
+<div class="ghl-calendar"><iframe src="https://api.leadconnectorhq.com/widget/booking/BO9jYlTRC7Rp9WNKcvZl" allow="payment" style="width: 100%; border: none; overflow: hidden; min-height: 720px;" scrolling="no" id="BO9jYlTRC7Rp9WNKcvZl_1788861329198"></iframe><script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script></div>
+</div>
+</div>
+</section>
+
+
+
+<div class="proofbar">
+<div><strong>45</strong><span>Leads generated</span></div>
+<div><strong>$32.47</strong><span>Average CPL</span></div>
+<div><strong>$1,461</strong><span>Ad spend</span></div>
+<div><strong>39,755</strong><span>Impressions</span></div>
+</div>
+
+
+
+<section>
+<div class="center"><div class="kicker">The problem</div><h2 class="title">Your next big project shouldn't depend on <span class="lime">referrals.</span></h2><p class="sub">You've built a great business. The goal now is to give your sales team a predictable stream of homeowners who actually want to discuss a project.</p></div>
+<div class="cards">
+<div class="card"><div class="kicker">01</div><h3>Unpredictable pipeline</h3><p>Some months you're slammed. Others you're wondering where the next project is coming from.</p></div>
+<div class="card"><div class="kicker">02</div><h3>Low-quality enquiries</h3><p>Cheap leads and price shoppers waste your team's time and make marketing look worse than it is.</p></div>
+<div class="card"><div class="kicker">03</div><h3>Good leads go cold</h3><p>Slow or inconsistent follow-up means genuine buying opportunities disappear.</p></div>
+</div>
+</section>
+
+<section>
+<div class="center"><div class="kicker">How it works</div><h2 class="title">From <span class="lime">scroll → enquiry → quote.</span></h2><p class="sub">One connected system instead of three disconnected marketing services.</p></div>
+<div class="system">
+<div class="step"><b>01 — CREATIVE</b><h3>Stop the scroll</h3><p>Premium image and video ads built around the projects homeowners want.</p></div>
+<div class="step"><b>02 — META</b><h3>Acquire demand</h3><p>Daily campaign management focused on cost, quality and project economics.</p></div>
+<div class="step"><b>03 — QUALIFY</b><h3>Filter intent</h3><p>Funnels and qualification designed to separate genuine opportunities from noise.</p></div>
+<div class="step"><b>04 — FOLLOW UP</b><h3>Keep them moving</h3><p>AI-powered follow-up responds quickly and nurtures prospects until they're ready.</p></div>
+</div>
+</section>
+
+<section>
+<div class="center"><div class="kicker">Real campaign proof</div><h2 class="title">We care about <span class="lime">numbers that matter.</span></h2><p class="sub">One campaign shown exactly as it ran — not a made-up “10X ROAS” headline.</p></div>
+<div class="case">
+<div class="caseimg"><img src="meta-performance.png" alt="Meta Ads campaign performance showing 45 leads, $32.47 average CPL, $1,461.31 spend and 39,755 impressions"></div>
+<div class="casecopy"><div class="kicker">45-day campaign</div><div class="big">45 leads</div><p><strong>$32.47 average CPL</strong><br>39,755 impressions<br>$1,461.31 total ad spend<br>Campaign duration: 45 days</p><p>This is the type of reporting your team can use to understand what's actually happening inside the acquisition engine.</p></div>
+</div>
+</section>
+
+<section>
+<div class="green"><div class="kicker">The Hardskale outcome</div><h2 class="title">Don't pay for a pile of leads.<br><span>Build a pipeline of opportunities.</span></h2><p class="sub">The objective is simple: get the right homeowner interested, qualify them and get them into a real sales conversation.</p><a class="cta" href="#book">SEE IF WE'RE A FIT →</a></div>
+</section>
+
+<section class="faq">
+<div class="center"><div class="kicker">Before you book</div><h2 class="title">A few quick answers.</h2></div>
+<div class="q">Who is Hardskale for?<span>+</span></div>
+<div class="q">What types of outdoor living companies do you work with?<span>+</span></div>
+<div class="q">How does pricing work?<span>+</span></div>
+<div class="q">What happens on the strategy call?<span>+</span></div>
+</section>
+
+<section class="hero" style="padding-bottom:90px">
+<div class="kicker">Your next project</div><h2 class="title">Ready for a more predictable <span class="lime">pipeline?</span></h2>
+<a class="cta" href="#book">BOOK YOUR STRATEGY CALL →</a>
+<div class="micro">Limited client capacity.</div>
+</section>
+<footer>© 2026 HARDSKALE · Privacy Policy · Terms</footer>
+</div>
+<script>document.querySelectorAll('.video-wrap').forEach(w=>{const v=w.querySelector('video'),b=w.querySelector('.play-overlay');const toggle=()=>{if(v.paused){v.play();w.classList.add('playing')}else{v.pause();w.classList.remove('playing')}};b.addEventListener('click',toggle);v.addEventListener('play',()=>w.classList.add('playing'));v.addEventListener('pause',()=>w.classList.remove('playing'));v.addEventListener('ended',()=>w.classList.remove('playing'));v.addEventListener('click',toggle)});</script></body></html>
